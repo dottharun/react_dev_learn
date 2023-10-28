@@ -1,11 +1,13 @@
-export default function Profile() {
+import Gallery from "./Gallery";
+import Profile from "./Profile";
+
+const App = () => {
   return (
     <>
-      <img
-        className="border-8"
-        src="https://i.imgur.com/MK3eW3Am.jpg"
-        alt="Katherine Johnson"
-      />
+      <Profile />
+      <Gallery />
     </>
   );
-}
+};
+
+export default App;
