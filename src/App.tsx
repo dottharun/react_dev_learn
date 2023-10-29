@@ -1,11 +1,11 @@
-import Gallery from "./Gallery";
-import Profile from "./Profile";
+import Gallery from "./components/01FirstComp/Gallery";
+import Profile from "./components/01FirstComp/Profile";
 
 const App = () => {
   return (
     <>
-      <Profile />
       <Gallery />
+      <Profile />
     </>
   );
 };

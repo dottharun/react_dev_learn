@@ -11,7 +11,7 @@ const Gallery = () => {
       */}
 
       {/* Does the samething as above  */}
-      <section className="flex-row flex border-blue-950 border-4 ">
+      <section className="flex-row flex border-blue-950 border-4 w-fit">
         {Array(5).fill(<Profile />)}
       </section>
 
