@@ -7,7 +7,9 @@ export default function Form2() {
     email: "bhepworth@sculpture.com",
   });
 
-  //here we use
+  //here we use dynamic property name for our state object for consise state change
+  //this works because we named our <input> html elem's name attribute the same as
+  //our state object's properties
   function handleChange(e: ChangeEvent<HTMLInputElement>) {
     setPerson({
       ...person,
@@ -16,7 +18,7 @@ export default function Form2() {
   }
 
   return (
-    <>
+    <div className="w-fit flex flex-col p-4 border border-green-500">
       <label>
         First name:
         <input
@@ -37,9 +39,9 @@ export default function Form2() {
         Email:
         <input name="email" value={person.email} onChange={handleChange} />
       </label>
-      <p>
+      <p className="pt-3">
         {person.firstName} {person.lastName} ({person.email})
       </p>
-    </>
+    </div>
   );
 }

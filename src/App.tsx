@@ -16,6 +16,8 @@ import Counter from "./components/08Batches/01multi";
 // import MovingDot from "./components/09Objects/01obj";
 import Form from "./components/09Objects/02form";
 import Form2 from "./components/09Objects/03dynamicObj";
+import Form3 from "./components/09Objects/04nested";
+import ImmerForm from "./components/09Objects/05nestedImmur";
 
 const App = () => {
   return (
@@ -41,6 +43,8 @@ const App = () => {
       {/* <MovingDot /> */}
       <Form />
       <Form2 />
+      <Form3 />
+      <ImmerForm />
     </>
   );
 };
