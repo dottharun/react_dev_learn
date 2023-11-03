@@ -1,5 +1,10 @@
-function Item({ name, isPacked }) {
-  let itemContent = name;
+type ItemData = {
+  name: string;
+  isPacked: boolean;
+};
+
+function Item({ name, isPacked }: ItemData) {
+  let itemContent: string | JSX.Element = name;
   if (isPacked) {
     itemContent = <del>{name + " ✔"}</del>;
   }

@@ -1,6 +1,11 @@
-import { getImageUrl } from "./01utils";
+import { PersonData, getImageUrl } from "./01utils";
 
-function Avatar({ person, size }) {
+export type AvatarData = {
+  person: PersonData;
+  size: number;
+};
+
+function Avatar({ person, size }: AvatarData) {
   return (
     <img
       className="rounded-full"

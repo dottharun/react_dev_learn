@@ -1,6 +1,12 @@
 import { Avatar } from "./01Avatar2";
 
-const Card = ({ children, a, b }) => {
+type CardData = {
+  children: Array<JSX.Element | string>;
+  a: string;
+  b: string;
+};
+
+const Card = ({ children, a, b }: CardData) => {
   //   console.log(children);
   return (
     <div className="border rounded-2xl w-fit p-6 bg-gray-500">

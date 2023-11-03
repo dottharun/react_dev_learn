@@ -1,5 +1,8 @@
-import { people } from "./02data2";
-import { getImageUrl } from "./02Utils2";
+import { people, PersonData } from "./02data2";
+
+function getImageUrl(person: PersonData) {
+  return "https://i.imgur.com/" + person.imageId + "s.jpg";
+}
 
 export default function List3() {
   const chemists = people.filter((person) => person.profession === "chemist");

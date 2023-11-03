@@ -1,11 +1,11 @@
-import { Avatar } from "./01Avatar2";
+import { Avatar, AvatarData } from "./01Avatar2";
 
 // having default values for props
 // function Avatar2({ person, size = 100 }) {
 //   // ...
-// }
+// }     l
 
-const Profile2 = (props) => {
+const Profile2 = (props: AvatarData) => {
   return (
     <>
       {/* with spread syntax */}

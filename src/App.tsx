@@ -12,6 +12,10 @@ import Button from "./components/07Events/01event";
 import Toolbar from "./components/07Events/02propagation";
 import Gallery2 from "./components/07Events/03state";
 import TrafficLight from "./components/07Events/05traffic";
+import Counter from "./components/08Batches/01multi";
+// import MovingDot from "./components/09Objects/01obj";
+import Form from "./components/09Objects/02form";
+import Form2 from "./components/09Objects/03dynamicObj";
 
 const App = () => {
   return (
@@ -33,6 +37,10 @@ const App = () => {
       <Toolbar />
       <Gallery2 />
       <TrafficLight />
+      <Counter />
+      {/* <MovingDot /> */}
+      <Form />
+      <Form2 />
     </>
   );
 };

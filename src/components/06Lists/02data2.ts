@@ -1,4 +1,12 @@
-export const people = [
+export type PersonData = {
+  id: number;
+  name: string;
+  profession: string;
+  accomplishment: string;
+  imageId: string;
+};
+
+const people: Array<PersonData> = [
   {
     id: 0,
     name: "Creola Katherine Johnson",
@@ -36,3 +44,5 @@ export const people = [
     imageId: "lrWQx8l",
   },
 ];
+
+export { people };

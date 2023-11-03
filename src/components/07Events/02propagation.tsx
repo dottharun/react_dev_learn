@@ -1,4 +1,9 @@
-function Button({ onClick, children }) {
+type ButtonData = {
+  onClick: () => void;
+  children: string;
+};
+
+function Button({ onClick, children }: ButtonData) {
   return (
     <button
       onClick={(e) => {
