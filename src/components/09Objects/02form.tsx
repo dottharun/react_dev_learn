@@ -8,7 +8,7 @@ export default function Form() {
   });
 
   function handleFirstNameChange(e: ChangeEvent<HTMLInputElement>) {
-    //verbose way for change state of one field of an object
+    // verbose way for change state of one field of an object
     setPerson({
       firstName: e.target.value,
       lastName: person.lastName,
@@ -32,7 +32,7 @@ export default function Form() {
   }
 
   return (
-    <div className="w-fit flex flex-col p-4 border border-green-500">
+    <div className="w-fit flex flex-col p-4 border border-violet-700">
       <label>
         First name:{" "}
         <input value={person.firstName} onChange={handleFirstNameChange} />

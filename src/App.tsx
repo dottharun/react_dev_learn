@@ -18,6 +18,13 @@ import Form from "./components/09Objects/02form";
 import Form2 from "./components/09Objects/03dynamicObj";
 import Form3 from "./components/09Objects/04nested";
 import ImmerForm from "./components/09Objects/05nestedImmur";
+import ArrList from "./components/10Arrays/01adding";
+import RemList from "./components/10Arrays/02rem";
+import ShapeEditor from "./components/10Arrays/03transform";
+import CounterList from "./components/10Arrays/04replace";
+import InsertList from "./components/10Arrays/05insert";
+import ReverseList from "./components/10Arrays/06change";
+import BucketList from "./components/10Arrays/07objInArr";
 
 const App = () => {
   return (
@@ -45,6 +52,13 @@ const App = () => {
       <Form2 />
       <Form3 />
       <ImmerForm />
+      <ArrList />
+      <RemList />
+      <ShapeEditor />
+      <CounterList />
+      <InsertList />
+      <ReverseList />
+      <BucketList />
     </>
   );
 };
