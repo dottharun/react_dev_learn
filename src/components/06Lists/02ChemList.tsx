@@ -17,6 +17,7 @@ export default function List3() {
       <p>{person.profession + " known for " + person.accomplishment}</p>
     </li>
   ));
+
   return (
     <ul className="border-4 border-green-600 w-fit bg-slate-700">
       {listItems}

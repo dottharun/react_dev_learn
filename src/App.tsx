@@ -25,6 +25,7 @@ import CounterList from "./components/10Arrays/04replace";
 import InsertList from "./components/10Arrays/05insert";
 import ReverseList from "./components/10Arrays/06change";
 import BucketList from "./components/10Arrays/07objInArr";
+import StateForm from "./components/11state/01state";
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
       <InsertList />
       <ReverseList />
       <BucketList />
+      <StateForm />
     </>
   );
 };
